@@ -1,10 +1,11 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-//const port = process.env.PORT || 3000;
-//const pathHtml = path.resolve(__dirname, "./views")
+const port = 3000;
+const pathHtml = path.resolve(__dirname, "./views")
+app.use(express.static(pathHtml))
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("Nada que hacer, necesitamos plata")
 })
 
