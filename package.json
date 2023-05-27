@@ -1,0 +1,15 @@
+{
+  "name": "black-door-store",
+  "version": "1.0.0",
+  "description": "Ecommerce de mis productos relacionados al anime y por ahi a cosas relacionadas con la cultura pop y de internet.\r Tambien futura pagina de merchandising y tienda fisica de Voozes(Banda ficticia de mi autoria).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
